@@ -1,0 +1,18 @@
+#cart-btn {
+  position: relative;
+  cursor: pointer;
+
+  & img {
+    width: 32px;
+  }
+  & span {
+    font-size: 0.6rem;
+    top: 16px;
+    left: 20px;
+    position: absolute;
+    background-color: red;
+    border-radius: 10px;
+    padding: 3px;
+    color: var(--font-c-secundary);
+  }
+}

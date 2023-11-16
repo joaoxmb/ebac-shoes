@@ -1,0 +1,28 @@
+@import url(./cart.css);
+
+.shop {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 20px;
+}
+.shop li img {
+  background-color: #eee;
+  width: 100%;
+}
+.shop li h3 {
+  margin-bottom: 10px;
+}
+.shop li p {
+  margin-bottom: 20px;
+}
+.shop ul {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.shop ul li {
+  padding: 5px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
